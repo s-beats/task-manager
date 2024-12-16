@@ -9,7 +9,7 @@ require (
 	github.com/rs/zerolog v1.23.0
 	github.com/samber/do v1.4.1
 	github.com/samber/lo v1.33.0
-	github.com/samber/mo v1.5.1
+	github.com/samber/mo v1.8.0
 	github.com/stretchr/testify v1.8.0
 	xorm.io/xorm v1.3.1
 )
