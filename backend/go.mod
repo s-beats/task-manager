@@ -11,7 +11,7 @@ require (
 	github.com/samber/lo v1.33.0
 	github.com/samber/mo v1.5.1
 	github.com/stretchr/testify v1.8.0
-	xorm.io/xorm v1.3.1
+	xorm.io/xorm v1.3.2
 )
 
 require (
