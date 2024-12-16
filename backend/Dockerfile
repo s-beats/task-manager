@@ -1,4 +1,4 @@
-FROM golang:1.18-alpine as builder
+FROM golang:1.19-alpine as builder
 
 WORKDIR /app
 
@@ -11,7 +11,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-w -s" -o /app/todo ./cmd/api/ma
 
 
 # FROM scratch as api
-FROM golang:1.18-alpine as api
+FROM golang:1.19-alpine as api
 
 COPY --from=builder /app/todo /bin/todo
 
